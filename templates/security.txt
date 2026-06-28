@@ -1,0 +1,13 @@
+# Example security.txt — RFC 9116
+# Serve at:  https://<domain>/.well-known/security.txt  (and sign with PGP in production)
+# Validate at: https://securitytxt.org/
+
+Contact: mailto:security@acme.example
+Contact: https://acme.example/security/report
+Expires: 2027-01-01T00:00:00.000Z
+Encryption: https://acme.example/pgp-key.txt
+Acknowledgments: https://acme.example/security/hall-of-fame
+Preferred-Languages: en
+Canonical: https://acme.example/.well-known/security.txt
+Policy: https://acme.example/security/policy
+Hiring: https://acme.example/careers
