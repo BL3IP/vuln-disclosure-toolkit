@@ -1,5 +1,7 @@
 # 20 — Responsible Vulnerability Disclosure Toolkit
 
+[![CI](https://github.com/BL3IP/vuln-disclosure-toolkit/actions/workflows/ci.yml/badge.svg)](https://github.com/BL3IP/vuln-disclosure-toolkit/actions/workflows/ci.yml)
+
 A complete, safe **coordinated vulnerability disclosure (CVD)** workflow — templates a researcher
 or an organization can actually use — plus a tested **CVSS v3.1 calculator**. Built to
 [disclose.io](https://disclose.io), [HackerOne](https://www.hackerone.com/disclosure-guidelines),
