@@ -101,7 +101,11 @@ def main(argv=None) -> int:
     if not argv:
         print(__doc__)
         return 2
-    score, sev = score_vector(argv[0])
+    try:
+        score, sev = score_vector(argv[0])
+    except (ValueError, KeyError) as exc:
+        print(f"error: invalid CVSS v3.1 vector ({exc})", file=sys.stderr)
+        return 2
     print(f"{argv[0]}\n  Base Score: {score}  ({sev})")
     return 0
 
